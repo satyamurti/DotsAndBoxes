@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">Dots and Boxes</string>
+    <string name="custom_string">Hola, Welcome to Jungle</string>
+    <string name="your">Your</string>
+    <string name="play">Play</string>
+    <string name="_0">0</string>
+    <string name="boxes">BOXES</string>
+    <string name="winner_is_you">Winner is You</string>
+    <string name="undo">Undo</string>
+    <string name="home">Home</string>
+</resources>

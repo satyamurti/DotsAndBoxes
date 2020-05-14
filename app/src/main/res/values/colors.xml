@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorAccent">#FA9962</color>
+
+    <color name="highlight">#65471C</color>
+    <color name="highlight1">#855120</color>
+    <color name="yellow">#FFD900</color>
+    <color name="purple1">#811D7D</color>
+    <color name="blue">#2196F3</color>
+    <color name="purple">#9C27B0</color>
+    <color name="red">#F02A2A</color>
+    <color name="yellow1">#AC8C2D</color>
+    <color name="red1">#AA2E25</color>
+    <color name="green">#22A981</color>
+
+    <color name="lastline">#73E9D8</color>
+</resources>

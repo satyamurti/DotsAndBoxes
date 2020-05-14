@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background"
+    tools:context=".Ui.SlectPlayersActivity">
+
+    <ImageView
+        android:id="@+id/btGo"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:visibility="gone"
+        android:src="@drawable/arrow_button"
+        app:layout_constraintBottom_toBottomOf="@+id/sup4"
+        app:layout_constraintEnd_toStartOf="@+id/sup4"
+        app:layout_constraintStart_toEndOf="@+id/sup3"
+        app:layout_constraintTop_toTopOf="@+id/sup4" />
+
+    <ImageView
+        android:id="@+id/sup1"
+        android:layout_width="90dp"
+        android:layout_height="85dp"
+        android:layout_marginStart="52dp"
+        android:layout_marginTop="48dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/sup3"
+        android:layout_width="90dp"
+        android:layout_height="85dp"
+        android:layout_marginStart="56dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tvname1" />
+
+    <ImageView
+        android:id="@+id/sup4"
+        android:layout_width="90dp"
+        android:layout_height="85dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="52dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tvname2" />
+
+    <TextView
+        android:id="@+id/tvname1"
+        android:layout_width="161dp"
+        android:layout_height="61dp"
+        android:background="@drawable/wood"
+        android:fontFamily="@font/font"
+        android:gravity="center"
+        android:textColor="#EDEEEF"
+        android:textSize="18sp"
+        android:visibility="invisible"
+        app:layout_constraintEnd_toEndOf="@+id/sup1"
+        app:layout_constraintStart_toStartOf="@+id/sup1"
+        app:layout_constraintTop_toBottomOf="@+id/sup1" />
+
+    <TextView
+        android:id="@+id/tvname2"
+        android:layout_width="161dp"
+        android:layout_height="61dp"
+        android:background="@drawable/wood"
+        android:fontFamily="@font/font"
+        android:gravity="center"
+        android:textColor="#EDEEEF"
+        android:textSize="18sp"
+        android:visibility="invisible"
+        app:layout_constraintEnd_toEndOf="@+id/sup2"
+        app:layout_constraintStart_toStartOf="@+id/sup2"
+        app:layout_constraintTop_toBottomOf="@+id/sup2" />
+
+    <TextView
+        android:id="@+id/tvname4"
+        android:layout_width="161dp"
+        android:layout_height="61dp"
+        android:background="@drawable/wood"
+        android:fontFamily="@font/font"
+        android:gravity="center"
+        android:textColor="#EDEEEF"
+        android:textSize="18sp"
+        android:visibility="invisible"
+        app:layout_constraintEnd_toEndOf="@+id/sup2"
+        app:layout_constraintStart_toStartOf="@+id/sup2"
+        app:layout_constraintTop_toBottomOf="@+id/sup4" />
+
+    <TextView
+        android:id="@+id/tvname3"
+        android:layout_width="161dp"
+        android:layout_height="61dp"
+        android:background="@drawable/wood"
+        android:fontFamily="@font/font"
+        android:gravity="center"
+        android:textColor="#EDEEEF"
+        android:textSize="18sp"
+        android:visibility="invisible"
+        app:layout_constraintEnd_toEndOf="@+id/sup1"
+        app:layout_constraintHorizontal_bias="0.492"
+        app:layout_constraintStart_toStartOf="@+id/sup1"
+        app:layout_constraintTop_toBottomOf="@+id/sup3" />
+
+    <TextView
+        android:id="@+id/tvSuggestion"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="92dp"
+        android:fontFamily="@font/font"
+        android:gravity="center"
+        android:text=" SELECT YOUR PLAYERS"
+        android:textColor="#033035"
+        android:textSize="45dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/sup2"
+        android:layout_width="90dp"
+        android:layout_height="85dp"
+        android:layout_marginTop="48dp"
+        android:layout_marginEnd="56dp"
+
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <GridView
+        android:id="@+id/gridview"
+        android:layout_width="match_parent"
+        android:layout_height="367dp"
+        android:background="@android:color/transparent"
+        android:columnWidth="45dp"
+        android:numColumns="3"
+        android:padding="12dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background"
+    tools:context=".Ui.ChooseModeAndGridActivity">
+
+    <ImageView
+        android:id="@+id/igChosseMode"
+        android:layout_width="405dp"
+        android:layout_height="173dp"
+        android:background="@drawable/choosemodetopbanner"
+        android:scaleType="centerCrop"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/igsolo"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:scaleType="centerCrop"
+        android:src="@drawable/solo_button"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/igChosseMode" />
+
+    <ImageView
+        android:id="@+id/igmultiplayer"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:layout_marginTop="12dp"
+        android:scaleType="centerCrop"
+        android:src="@drawable/mutiplayer_button"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/igsolo" />
+
+    <ImageView
+        android:id="@+id/gridSize"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:scaleType="centerCrop"
+        android:src="@drawable/grid_sizebutton"
+        android:visibility="gone"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/buttongrid3x3"
+        android:layout_width="match_parent"
+        android:layout_height="134dp"
+        android:scaleType="centerCrop"
+        android:src="@drawable/buttongrid3x3"
+        android:visibility="gone"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/gridSize" />
+
+    <ImageView
+        android:id="@+id/buttongrid4x4"
+        android:layout_width="wrap_content"
+
+        android:layout_height="160dp"
+        android:scaleType="centerCrop"
+        android:src="@drawable/buttongrid4x4"
+        android:visibility="gone"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/buttongrid3x3" />
+
+    <ImageView
+        android:id="@+id/buttongrid5x5"
+        android:layout_width="match_parent"
+        android:layout_height="134dp"
+        android:scaleType="centerCrop"
+        android:src="@drawable/buttongrid5x5"
+        android:visibility="gone"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/buttongrid4x4" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
