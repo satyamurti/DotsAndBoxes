@@ -5,6 +5,11 @@
 <br>
 
 > Dots And Boxes Game built using android canvas
+
+## ⬇️ Download apk here
+
+> https://github.com/MrSPD-2703/DotsAndBoxes/raw/master/app/release/app-release.apk
+
 ## ⚙️ Detailed Functionality
 * Solo Mode (Play with Computer)
 * Multiplayer Mode 
