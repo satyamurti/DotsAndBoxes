@@ -21,7 +21,7 @@
 ## 🚀 Tech and Tools Used
 
 * Android Canvas
-* Min Max Algorithm
+* Greedy Algorithm
 * LottieFiles
 
 ## 📸 Screenshots
